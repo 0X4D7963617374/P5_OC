@@ -1,0 +1,41 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+
+header
+{
+    background-color: #FFCC99;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 8px 10px rgba(0,0,0,0.3);
+}
+
+
+main
+{
+    display: flex;
+    flex: 1;
+    background-color: #E6F2FF;
+}
+
+aside
+{
+    flex: 1;
+    background-color: #B3D9FF;
+    border: 1px solid #CCC;
+}
+
+section
+{
+    flex: 3;
+    margin: 20px;
+}
+
+footer
+{
+    background-color: #99CC99;
+    border: 1px solid #CCC;
+    box-shadow: 0 8px 10px rgba(0,0,0,0.3);
+}
